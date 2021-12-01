@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCF20EDC275816100019905A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF20EDB275816100019905A /* AppDelegate.m */; };
+		FCF20EDE275816290019905A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF20EDD275816290019905A /* Assets.xcassets */; };
+		FCF20EE1275816290019905A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF20EDF275816290019905A /* MainMenu.xib */; };
+		FCF20EE3275816290019905A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF20EE2275816290019905A /* main.m */; };
+		FCF20EEE2758162A0019905A /* TextEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF20EED2758162A0019905A /* TextEditTests.m */; };
+		FCF20EF82758162A0019905A /* TextEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF20EF72758162A0019905A /* TextEditUITests.m */; };
+		FCF20EFA2758162A0019905A /* TextEditUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF20EF92758162A0019905A /* TextEditUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF20EEA2758162A0019905A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF20ECF2758160F0019905A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF20ED62758160F0019905A;
+			remoteInfo = TextEdit;
+		};
+		FCF20EF42758162A0019905A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF20ECF2758160F0019905A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF20ED62758160F0019905A;
+			remoteInfo = TextEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCF20ED72758160F0019905A /* TextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF20EDA275816100019905A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCF20EDB275816100019905A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCF20EDD275816290019905A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCF20EE0275816290019905A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FCF20EE2275816290019905A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCF20EE4275816290019905A /* TextEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextEdit.entitlements; sourceTree = "<group>"; };
+		FCF20EE92758162A0019905A /* TextEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF20EED2758162A0019905A /* TextEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditTests.m; sourceTree = "<group>"; };
+		FCF20EF32758162A0019905A /* TextEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF20EF72758162A0019905A /* TextEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditUITests.m; sourceTree = "<group>"; };
+		FCF20EF92758162A0019905A /* TextEditUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF20ED42758160F0019905A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EE62758162A0019905A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EF02758162A0019905A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF20ECE2758160F0019905A = {
+			isa = PBXGroup;
+			children = (
+				FCF20ED92758160F0019905A /* TextEdit */,
+				FCF20EEC2758162A0019905A /* TextEditTests */,
+				FCF20EF62758162A0019905A /* TextEditUITests */,
+				FCF20ED82758160F0019905A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF20ED82758160F0019905A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF20ED72758160F0019905A /* TextEdit.app */,
+				FCF20EE92758162A0019905A /* TextEditTests.xctest */,
+				FCF20EF32758162A0019905A /* TextEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF20ED92758160F0019905A /* TextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				FCF20EDA275816100019905A /* AppDelegate.h */,
+				FCF20EDB275816100019905A /* AppDelegate.m */,
+				FCF20EDD275816290019905A /* Assets.xcassets */,
+				FCF20EDF275816290019905A /* MainMenu.xib */,
+				FCF20EE2275816290019905A /* main.m */,
+				FCF20EE4275816290019905A /* TextEdit.entitlements */,
+			);
+			path = TextEdit;
+			sourceTree = "<group>";
+		};
+		FCF20EEC2758162A0019905A /* TextEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF20EED2758162A0019905A /* TextEditTests.m */,
+			);
+			path = TextEditTests;
+			sourceTree = "<group>";
+		};
+		FCF20EF62758162A0019905A /* TextEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF20EF72758162A0019905A /* TextEditUITests.m */,
+				FCF20EF92758162A0019905A /* TextEditUITestsLaunchTests.m */,
+			);
+			path = TextEditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF20ED62758160F0019905A /* TextEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF20EFD2758162A0019905A /* Build configuration list for PBXNativeTarget "TextEdit" */;
+			buildPhases = (
+				FCF20ED32758160F0019905A /* Sources */,
+				FCF20ED42758160F0019905A /* Frameworks */,
+				FCF20ED52758160F0019905A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEdit;
+			productName = TextEdit;
+			productReference = FCF20ED72758160F0019905A /* TextEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF20EE82758162A0019905A /* TextEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF20F002758162A0019905A /* Build configuration list for PBXNativeTarget "TextEditTests" */;
+			buildPhases = (
+				FCF20EE52758162A0019905A /* Sources */,
+				FCF20EE62758162A0019905A /* Frameworks */,
+				FCF20EE72758162A0019905A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF20EEB2758162A0019905A /* PBXTargetDependency */,
+			);
+			name = TextEditTests;
+			productName = TextEditTests;
+			productReference = FCF20EE92758162A0019905A /* TextEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCF20EF22758162A0019905A /* TextEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF20F032758162A0019905A /* Build configuration list for PBXNativeTarget "TextEditUITests" */;
+			buildPhases = (
+				FCF20EEF2758162A0019905A /* Sources */,
+				FCF20EF02758162A0019905A /* Frameworks */,
+				FCF20EF12758162A0019905A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF20EF52758162A0019905A /* PBXTargetDependency */,
+			);
+			name = TextEditUITests;
+			productName = TextEditUITests;
+			productReference = FCF20EF32758162A0019905A /* TextEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF20ECF2758160F0019905A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FCF20ED62758160F0019905A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FCF20EE82758162A0019905A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FCF20ED62758160F0019905A;
+					};
+					FCF20EF22758162A0019905A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FCF20ED62758160F0019905A;
+					};
+				};
+			};
+			buildConfigurationList = FCF20ED22758160F0019905A /* Build configuration list for PBXProject "TextEdit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF20ECE2758160F0019905A;
+			productRefGroup = FCF20ED82758160F0019905A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF20ED62758160F0019905A /* TextEdit */,
+				FCF20EE82758162A0019905A /* TextEditTests */,
+				FCF20EF22758162A0019905A /* TextEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF20ED52758160F0019905A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF20EDE275816290019905A /* Assets.xcassets in Resources */,
+				FCF20EE1275816290019905A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EE72758162A0019905A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EF12758162A0019905A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF20ED32758160F0019905A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF20EE3275816290019905A /* main.m in Sources */,
+				FCF20EDC275816100019905A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EE52758162A0019905A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF20EEE2758162A0019905A /* TextEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF20EEF2758162A0019905A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF20EF82758162A0019905A /* TextEditUITests.m in Sources */,
+				FCF20EFA2758162A0019905A /* TextEditUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF20EEB2758162A0019905A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF20ED62758160F0019905A /* TextEdit */;
+			targetProxy = FCF20EEA2758162A0019905A /* PBXContainerItemProxy */;
+		};
+		FCF20EF52758162A0019905A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF20ED62758160F0019905A /* TextEdit */;
+			targetProxy = FCF20EF42758162A0019905A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCF20EDF275816290019905A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF20EE0275816290019905A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF20EFB2758162A0019905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCF20EFC2758162A0019905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCF20EFE2758162A0019905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextEdit/TextEdit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		FCF20EFF2758162A0019905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextEdit/TextEdit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		FCF20F012758162A0019905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextEdit.app/Contents/MacOS/TextEdit";
+			};
+			name = Debug;
+		};
+		FCF20F022758162A0019905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextEdit.app/Contents/MacOS/TextEdit";
+			};
+			name = Release;
+		};
+		FCF20F042758162A0019905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TextEdit;
+			};
+			name = Debug;
+		};
+		FCF20F052758162A0019905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airyx.TextEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TextEdit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF20ED22758160F0019905A /* Build configuration list for PBXProject "TextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF20EFB2758162A0019905A /* Debug */,
+				FCF20EFC2758162A0019905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF20EFD2758162A0019905A /* Build configuration list for PBXNativeTarget "TextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF20EFE2758162A0019905A /* Debug */,
+				FCF20EFF2758162A0019905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF20F002758162A0019905A /* Build configuration list for PBXNativeTarget "TextEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF20F012758162A0019905A /* Debug */,
+				FCF20F022758162A0019905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF20F032758162A0019905A /* Build configuration list for PBXNativeTarget "TextEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF20F042758162A0019905A /* Debug */,
+				FCF20F052758162A0019905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF20ECF2758160F0019905A /* Project object */;
+}
